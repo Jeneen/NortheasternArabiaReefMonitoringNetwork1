@@ -2,13 +2,13 @@
 
 
 file_path <- "/Users/jh8695/Documents/GitRepos/NortheasternArabiaReefMonitoringNetwork1/Data/Photoquadrats/Test" #Add file path here
-site <- "TEST" #Add site name here
+site <- "TEST_Site" #Add site name here
 date <- "2023-09-18" #Add date here
 
 
 create_folders <- function(file_path, site, date) {
-  # Create "Processed" folder
-  processed_path <- file.path(file_path, "Processed")
+  # Create "FoldersCreated" folder
+  processed_path <- file.path(file_path, "FoldersCreated")
   if(!dir.exists(processed_path)) {
     dir.create(processed_path)
   }

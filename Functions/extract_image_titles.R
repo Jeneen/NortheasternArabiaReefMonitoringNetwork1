@@ -17,4 +17,5 @@ extract_image_titles <- function(dir_path) {
 }
 
 # Example usage:
-# extract_image_titles("/Users/jh8695/Documents/GitRepos/ReefCloud/Processed")
+extract_image_titles("/Users/jh8695/Documents/GitRepos/NortheasternArabiaReefMonitoringNetwork1/Data/Photoquadrats/Test/Sorted/")
+

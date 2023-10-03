@@ -1,9 +1,16 @@
-move_named_images <- function() {
+move_named_images <- function(base_dir) {
   # Set the directory to the specified path
-  setwd("/Users/jh8695/Documents/GitRepos/NortheasternArabiaReefMonitoringNetwork1/Data/Photoquadrats/Test/Unsorted")
+  setwd(base_dir)
   
-  # Get a list of all the image files
-  images <- list.files(recursive = TRUE, pattern = "\\.jpg$", full.names = TRUE)
+  # Create a "Sorted" folder if it doesn't exist
+  sorted_folder <- file.path(base_dir, "Sorted")
+  if (!dir.exists(sorted_folder)) {
+    dir.create(sorted_folder)
+  }
+  
+  # Get a list of all the image files from "Unsorted" folder
+  unsorted_folder <- file.path(base_dir, "Unsorted")
+  images <- list.files(unsorted_folder, recursive = TRUE, pattern = "\\.jpg$", full.names = TRUE)
   
   # Loop through each image file
   for (img in images) {
@@ -15,13 +22,14 @@ move_named_images <- function() {
     folder2 <- substr(img_parts[4], 1, nchar(img_parts[4]) - 4)  # After the third "_" and remove last 4 characters
     folder3 <- img_parts[2]  # After the first "_"
     
-    # Create the nested subfolders if they don't already exist
-    nested_folder_path <- file.path(dirname(img), folder1, folder2, folder3)
+    # Create the nested subfolders inside "Sorted" if they don't already exist
+    nested_folder_path <- file.path(sorted_folder, folder1, folder2, folder3)
     dir.create(nested_folder_path, showWarnings = FALSE, recursive = TRUE)
     
-    # Move the image to the appropriate subfolder
-    file.rename(img, file.path(nested_folder_path, basename(img)))
+    # Copy the image to the appropriate subfolder in "Sorted"
+    file.copy(img, file.path(nested_folder_path, basename(img)))
   }
 }
 
-move_named_images()
+# Example usage:
+move_named_images("/Users/jh8695/Documents/GitRepos/NortheasternArabiaReefMonitoringNetwork1/Data/Photoquadrats/Test")

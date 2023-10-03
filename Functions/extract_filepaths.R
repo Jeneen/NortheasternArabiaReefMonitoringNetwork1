@@ -24,4 +24,4 @@ extract_filepaths <- function(dir_path) {
 }
 
 # Example usage:
-# extract_filepaths("/Users/jh8695/Documents/GitRepos/NortheasternArabiaReefMonitoringNetwork1/Data/Photoquadrats/Test/Processed/2022-11-11")
+extract_filepaths("/Users/jh8695/Documents/GitRepos/NortheasternArabiaReefMonitoringNetwork1/Data/Photoquadrats/Test/Sorted/")
