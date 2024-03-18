@@ -1,0 +1,37 @@
+Country,Name,Latitude,Longitude,Reef type,Reef zone,Reef exposure,Notes,Rules,Management name
+United Arab Emirates,AlHiel,24.40647511,53.20405377,fringing,fore reef,sheltered,,Access restrictions,Marawah Marine Biosphere Reserve
+Oman,AlHarf,26.241663,56.197179,fringing,fore reef,sheltered,,None,AlHarf
+Oman,CoralGarden,26.37685142,56.41487916,fringing,fore reef,semi exposed,,None,Coral Garden
+United Arab Emirates,DeltaBuoy,24.62922,54.2503,patch,fore reef,sheltered,,None,Delta Buoy
+United Arab Emirates,Dhabiya,24.36549992,54.10079998,patch,fore reef,sheltered,,None,Dhabiya
+United Arab Emirates,MartiniBay,25.33492,56.37917,patch,fore reef,sheltered,,None,Martini Bay
+United Arab Emirates,MartiniWall,25.33904,56.37819,patch,fore reef,sheltered,,None,Martini Wall
+Oman,PPBeach,26.376851,56.414879,fringing,fore reef,semi exposed,,None,PP Beach
+United Arab Emirates,RAK,25.98990915,56.06551724,patch,fore reef,sheltered,Same as RAK Nat Reef,None,RAK
+United Arab Emirates,RasGhanada,24.84759632,54.69025958,patch,fore reef,sheltered,,No take,Ras Ghanada Marine Protected Area
+United Arab Emirates,Saadiyat,24.59858028,54.42014881,patch,fore reef,sheltered,,No take,Al Saadiyat Marine National Park
+United Arab Emirates,SBN-N,25.25874,54.20809,fringing,fore reef,exposed,,Access restrictions,Jazirat Sir Bo Na'air Protected Area
+United Arab Emirates,SBN-S,25.21504,54.22265,fringing,fore reef,exposed,,Access restrictions,Jazirat Sir Bo Na'air Protected Area
+United Arab Emirates,SBN-W,25.24414,54.19723,fringing,fore reef,exposed,,Access restrictions,Jazirat Sir Bo Na'air Protected Area
+United Arab Emirates,SharkIsland,25.35151,56.37575,fringing,fore reef,very sheltered,,None,Shark Island
+United Arab Emirates,UAQ,25.54342629,55.59221263,patch,fore reef,sheltered,,None,UAQ
+United Arab Emirates,BuTinah,24.66881,53.06326,fringing,fore reef,sheltered,,No take; Access restrictions,Marawah Marine Biosphere Reserve
+United Arab Emirates,Delma,24.5208,52.2781,fringing,fore reef,sheltered,,None,Delma
+United Arab Emirates,Mukasab,24.6707,51.8115,patch,fore reef,sheltered,,Access restrictions,Mukasab
+United Arab Emirates,MhammaliyyahIsland,24.11612756,51.8962457,patch,fore reef,sheltered,,Access restrictions,MhammaliyyahIsland
+United Arab Emirates,YasatAli,24.22103,51.9957,patch,fore reef,sheltered,,No take; Access restrictions,Al Yasat Marine Protected Area
+United Arab Emirates,YasatAsfl,24.16185,51.98443,patch,fore reef,sheltered,,No take; Access restrictions,Al Yasat Marine Protected Area
+United Arab Emirates,Hawksbill,24.0905,52.1515,patch,fore reef,sheltered,,None,Hawksbill
+United Arab Emirates,AlSaada_Bedbug,24.08524,52.24332,patch,fore reef,sheltered,,None,AlSaada_Bedbug
+United Arab Emirates,Bamboo,24.35632,54.02947,patch,fore reef,sheltered,,None,Bamboo
+United Arab Emirates,Delta,24.62922,54.2503,patch,fore reef,sheltered,,None,Delta
+United Arab Emirates,WebbRock,24.09742083,52.24246553,patch,fore reef,sheltered,,None,WebbRock
+United Arab Emirates,Mira,24.64804,54.26587,patch,fore reef,sheltered,,None,Mira
+United Arab Emirates,Snoopy_AlAqah,25.4929462,56.36352265,fringing,fore reef,sheltered,,No take,Al Aqah Marine Reserve
+United Arab Emirates,DibbaRockSouth,25.602907,56.3511968,fringing,fore reef,sheltered,,None,Birds Island (Jazeraat Al Tuyur) MPA
+Oman,QantabReef,23.5645,58.636467,fringing,fore reef,sheltered,Copied from other project,None,QantabReef - Fished
+Oman,JussaWest,,,,,,Copied from other project,,JussaWest - Fished
+Oman,JussaPoint,,,,,,Copied from other project,,JussaPoint - Fished
+Oman,AlHeddla,,,,,,Copied from other project,,AlHeddla - Fished
+Oman,RashidIslandW,,,,,,Copied from other project,,RashidIslandW - Fished
+Oman,AlYassat,24.22103,51.9957,patch,fore reef,sheltered,,,Al Yasat Marine Protected Area
